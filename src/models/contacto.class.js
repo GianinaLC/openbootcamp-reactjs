@@ -3,12 +3,12 @@ export class Contacto {
     nombre = '';
     apellido = '';
     email = '';
-    conectado = false;
+    sesion = false;
 
-    constructor(nombre, apellido, email, conectado) {
+    constructor(nombre, apellido, email, sesion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
-        this.conectado = conectado;
+        this.sesion = sesion;
     }
 }
