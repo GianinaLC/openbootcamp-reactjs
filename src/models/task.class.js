@@ -1,4 +1,4 @@
-/* import { LEVELS } from "./levels.enum";
+import { LEVELS } from "./levels.enum";
 
 export class Task {
     name = '';
@@ -12,4 +12,4 @@ export class Task {
         this.completed = completed;
         this.level = level;
     }
-} */
+}
