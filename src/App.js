@@ -8,13 +8,14 @@ import Homepage from './pages/home/Homepage';
 import NotFoundPage from './pages/404/NotFoundPage';
 import LoginForm from './components/pure/forms/LoginForm';
 import DashboardPage from './pages/dashboard/Dashboard';
+import AxiosExample from './components/pure/AxiosExample';
 
 function App() {
 	let isLogged = true;
 
 	return (
 		<BrowserRouter>
-			<Routes>
+			{/* <Routes>
 				<Route exact path='/'
 					element={
 						isLogged ? <Navigate replace to='/dashboard' /> : <Navigate replace to='/login' />
@@ -28,11 +29,13 @@ function App() {
 					}
 				/>
 				<Route path='*' element={<NotFoundPage />} />
-			</Routes>
+			</Routes> */}
 			{/*  <ContactoLista /> */}
 			{/*  <SesionDoce /> */}
 			{/* ejemplo formik yup */}
 			{/* <TaskListFormik /> */}
+			{/* 19 20 21 */}
+			<AxiosExample />
 
 		</BrowserRouter>
 	);
